@@ -1,0 +1,11 @@
+【answer-googleForm】
+pythonを用いてgoogleFormを開き、操作する（必要項目を入力し、送信ボタンを押下する）スクリプト
+
+call_python.vbsをタスクスケジューラに設定することで定期実行可能
+
+■前提条件
+・pythonをインストール
+→https://pythonlinks.python.jp/ja/index.html
+・seleniumをインストール
+→python -m pip -V : pipの存在確認
+→pip install selenium : seleniumインストール
