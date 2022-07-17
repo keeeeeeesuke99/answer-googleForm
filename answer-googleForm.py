@@ -51,7 +51,7 @@ def main():
     yesterday_taion,
     today_taion
   )
-  url = "https://docs.google.com/forms/d/e/1FAIpQLSc0QOFKz0DnOO9Wx9LPX3rs3mNghKRIftLC6SNgalsTJyAF7g/viewform{}".format(parameter)
+  url = "https://docs.google.com/forms/d/e/1FAIpQLSc5iF_pOHU2fKK4nxeH-63ZyvNYAIUyLmRU3RbljTlnSL_hTA/viewform{}".format(parameter)
 
   try:
     driver.get(url)
