@@ -7,7 +7,7 @@ from time import sleep
 def main():
     driver = webdriver.Chrome()
 
-    url = "https://docs.google.com/forms/d/e/1FAIpQLSc0QOFKz0DnOO9Wx9LPX3rs3mNghKRIftLC6SNgalsTJyAF7g/viewform"
+    url = "https://docs.google.com/forms/d/e/1FAIpQLSc5iF_pOHU2fKK4nxeH-63ZyvNYAIUyLmRU3RbljTlnSL_hTA/viewform"
 
     driver.get(url)
     

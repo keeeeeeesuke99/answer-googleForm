@@ -27,6 +27,7 @@ def main():
   """
   driver = webdriver.Chrome()
 
+  # TODO googleFormの項目によって要修正
   # entry.[質問ID]=[回答]
   student_number = 9999
   student_name = urllib.parse.quote("山田太郎")
@@ -35,6 +36,7 @@ def main():
   station_a = urllib.parse.quote("池袋駅")
   station_b = urllib.parse.quote("上野駅")
 
+  # TODO googleFormの項目によって要修正
   # 36度1分〜7分になる
   yesterday_taion = 36 + random.randint(1, 7) / 10
   today_taion = 36 + random.randint(1, 7) / 10
@@ -59,6 +61,7 @@ def main():
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
     sleep(2)
 
+    # TODO googleFormの送信ボタンのclassNameによって要修正
     # 送信ボタンを押下
     e = driver.find_element(By.CLASS_NAME, "VkkpIf")
     print(e)
